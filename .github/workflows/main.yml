@@ -22,6 +22,6 @@ jobs:
 
             - name: run script to read data from api
               env:
-                MY_TOKEN: ${{secrets.API_TOKEN}}
+                MY_TOKEN: ${{ secrets.API_TOKEN }}
               run: python read_data_api.py
 
